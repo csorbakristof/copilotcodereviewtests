@@ -11,6 +11,12 @@ A Program osztálynak kell hogy legyen egy konstruktora, ami int típusú param�
 
 A Program konstruktora a paraméterként kapott értéket elmenti egy protected láthatóságú adattagba, ami int típusú és readonly. Ha ezek teljesülnek, az 2 pont. Ha hiányzik a protected vagy readonly, akkor csak 1 pontot ér.
 
-# A code review eredménye
+# Pontozási szempontok
 
-A code review eredményeként add össze a fentiek szerint kapott pontokat és az értékelés végén "PONTSZÁM: 3/4 pont" formátumban írd ki.
+1. "Program" osztály példányosítása (0-1 pont)
+2. Konstruktor paramétere (0-1 pont)
+3. Konstrukor és adatmentés (0-1 pont)
+4. Adattag protected és readonly (0-2 pont)
+4. Általános kód olvashatóság (0-2 pont)
+
+**Kérlek, minden szempontnál add meg az elért pontszámot, és a végén írd ki az összpontszámot!**
