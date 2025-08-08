@@ -1,3 +1,5 @@
 /.vs/*
 /TestConsoleApp/obj/*
 /TestConsoleApp/bin/*
+*/bin/*
+*/obj/*

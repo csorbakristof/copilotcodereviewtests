@@ -1,17 +1,23 @@
-﻿namespace TestConsoleApp
-{
-    internal class Program
-    {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello, World!");
-            var app = new Program(42);
-        }
+﻿using System;
 
-        private readonly int value;
+namespace TestConsoleApp
+{
+    public class Program
+    {
+        // Protected, readonly field as per review criteria
+        protected readonly int value;
+
+        // Constructor with int parameter, saves value
         public Program(int i)
         {
-            this.value = i;
+            value = i;
+        }
+
+        static void Main(string[] args)
+        {
+            // Instance creation as required
+            var app = new Program(42);
+            Console.WriteLine("Hello, World!");
         }
     }
 }
