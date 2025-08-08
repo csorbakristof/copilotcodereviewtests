@@ -1,14 +1,16 @@
-# Ezek a code review kritériumai
-Ne módosíts ennek a fájlnak a tartalmán!
+# Ezek a code review kritÃ©riumai
+Ne mÃ³dosÃ­ts ennek a fÃ¡jlnak a tartalmÃ¡n!
 
-# A Program osztály statikus mûködése
+# A Program osztÃ¡ly statikus mÅ±kÃ¶dÃ©se
 
-A megoldásban fontos, hogy a Main metódus példányosítsa a Program osztályt. Az értékelésben ez 1 pontot ér.
+A megoldÃ¡sban fontos, hogy a Main metÃ³dus pÃ©ldÃ¡nyosÃ­tsa a Program osztÃ¡lyt. Az Ã©rtÃ©kelÃ©sben ez 1 pontot Ã©r.
 
-# A Program osztály konstruktora
+# A Program osztÃ¡ly konstruktora
 
-A Program osztálynak kell hogy legyen egy konstruktora, ami int típusú paramétert vár. Ez az értékelésben 1 pontot ér.
+A Program osztÃ¡lynak kell hogy legyen egy konstruktora, ami int tÃ­pusÃº paramÃ©tert vÃ¡r. Ez az Ã©rtÃ©kelÃ©sben 1 pontot Ã©r.
 
-A Program konstruktora a paraméterként kapott értéket elmenti egy protected láthatóságú adattagba, ami int típusú és readonly. Ha ezek teljesülnek, az 2 pont. Ha hiányzik a protected vagy readonly, akkor csak 1 pontot ér.
+A Program konstruktora a paramÃ©terkÃ©nt kapott Ã©rtÃ©ket elmenti egy protected lÃ¡thatÃ³sÃ¡gÃº adattagba, ami int tÃ­pusÃº Ã©s readonly. Ha ezek teljesÃ¼lnek, az 2 pont. Ha hiÃ¡nyzik a protected vagy readonly, akkor csak 1 pontot Ã©r.
 
+# A code review eredmÃ©nye
 
+A code review eredmÃ©nyekÃ©nt add Ã¶ssze a fentiek szerint kapott pontokat Ã©s az Ã©rtÃ©kelÃ©s vÃ©gÃ©n "PONTSZÃM: 3/4 pont" formÃ¡tumban Ã­rd ki.
